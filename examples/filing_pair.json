@@ -1,0 +1,225 @@
+{
+ "_note": "A fictional, hand-authored filing pair in ReportMemory form. Company, values, and text are invented for illustration.",
+ "case_id": "EXM_2026_Q1",
+ "target": {
+  "report_id": "EXM_2026_Q1_CONSOLIDATED",
+  "metadata": {
+   "company_name": "Example Manufacturing JSC (fictional)",
+   "period": "2026-Q1",
+   "report_period_type": "quarterly",
+   "report_profile": "standard_corporate",
+   "report_basis": "consolidated",
+   "business_context_tags": [
+    "manufacturing"
+   ],
+   "report_assurance_type": "unaudited",
+   "currency": "VND",
+   "unit": "million_vnd",
+   "filing_status": "original",
+   "canonical_source_document_id": "DOC_EXM_2026_Q1_CONSOLIDATED",
+   "source_file": "EXM_2026_Q1_CONSOLIDATED.pdf",
+   "extraction_method": "hand_authored_reference_v1"
+  },
+  "sections": [],
+  "tables": [
+   {
+    "table_id": "TBL_EXM_2026_Q1_CONSOLIDATED_FS",
+    "table_type": "income_statement",
+    "rows": [
+     {
+      "row_id": "ROW_REVENUE",
+      "standard_account": "revenue",
+      "account_code": "01",
+      "label": "Doanh thu thuần về bán hàng và cung cấp dịch vụ",
+      "cells": [
+       {
+        "cell_id": "CELL_ROW_REVENUE_EXM_2026_Q1_CONSOLIDATED",
+        "row_id": "ROW_REVENUE",
+        "period": "2026-Q1",
+        "value": 160000
+       }
+      ]
+     },
+     {
+      "row_id": "ROW_RECEIVABLES",
+      "standard_account": "trade_receivables",
+      "account_code": "131",
+      "label": "Phải thu ngắn hạn của khách hàng",
+      "cells": [
+       {
+        "cell_id": "CELL_ROW_RECEIVABLES_EXM_2026_Q1_CONSOLIDATED",
+        "row_id": "ROW_RECEIVABLES",
+        "period": "2026-Q1",
+        "value": 99000
+       }
+      ]
+     },
+     {
+      "row_id": "ROW_PROFIT",
+      "standard_account": "profit_after_tax",
+      "account_code": "60",
+      "label": "Lợi nhuận sau thuế thu nhập doanh nghiệp",
+      "cells": [
+       {
+        "cell_id": "CELL_ROW_PROFIT_EXM_2026_Q1_CONSOLIDATED",
+        "row_id": "ROW_PROFIT",
+        "period": "2026-Q1",
+        "value": 12000
+       }
+      ]
+     },
+     {
+      "row_id": "ROW_OCF",
+      "standard_account": "operating_cash_flow",
+      "account_code": "20",
+      "label": "Lưu chuyển tiền thuần từ hoạt động kinh doanh",
+      "cells": [
+       {
+        "cell_id": "CELL_ROW_OCF_EXM_2026_Q1_CONSOLIDATED",
+        "row_id": "ROW_OCF",
+        "period": "2026-Q1",
+        "value": -3000
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "notes": [],
+  "variance_explanations": [
+   {
+    "span_id": "SPAN_EXM_VAR_001",
+    "text": "Lợi nhuận quý tăng chủ yếu do doanh thu từ hợp đồng xuất khẩu mới; một phần khoản phải thu chưa đến hạn thanh toán.",
+    "source_document_id": "DOC_EXM_2026_Q1_CONSOLIDATED",
+    "evidence_provenance": {
+     "source_document_id": "DOC_EXM_2026_Q1_CONSOLIDATED",
+     "page": 2,
+     "extraction_method": "hand_authored_reference_v1"
+    }
+   }
+  ],
+  "cell_index": {
+   "CELL_ROW_REVENUE_EXM_2026_Q1_CONSOLIDATED": {
+    "table_id": "TBL_EXM_2026_Q1_CONSOLIDATED_FS",
+    "row_id": "ROW_REVENUE"
+   },
+   "CELL_ROW_RECEIVABLES_EXM_2026_Q1_CONSOLIDATED": {
+    "table_id": "TBL_EXM_2026_Q1_CONSOLIDATED_FS",
+    "row_id": "ROW_RECEIVABLES"
+   },
+   "CELL_ROW_PROFIT_EXM_2026_Q1_CONSOLIDATED": {
+    "table_id": "TBL_EXM_2026_Q1_CONSOLIDATED_FS",
+    "row_id": "ROW_PROFIT"
+   },
+   "CELL_ROW_OCF_EXM_2026_Q1_CONSOLIDATED": {
+    "table_id": "TBL_EXM_2026_Q1_CONSOLIDATED_FS",
+    "row_id": "ROW_OCF"
+   }
+  }
+ },
+ "prior_year": {
+  "report_id": "EXM_2025_Q1_CONSOLIDATED",
+  "metadata": {
+   "company_name": "Example Manufacturing JSC (fictional)",
+   "period": "2025-Q1",
+   "report_period_type": "quarterly",
+   "report_profile": "standard_corporate",
+   "report_basis": "consolidated",
+   "business_context_tags": [
+    "manufacturing"
+   ],
+   "report_assurance_type": "unaudited",
+   "currency": "VND",
+   "unit": "million_vnd",
+   "filing_status": "original",
+   "canonical_source_document_id": "DOC_EXM_2025_Q1_CONSOLIDATED",
+   "source_file": "EXM_2025_Q1_CONSOLIDATED.pdf",
+   "extraction_method": "hand_authored_reference_v1"
+  },
+  "sections": [],
+  "tables": [
+   {
+    "table_id": "TBL_EXM_2025_Q1_CONSOLIDATED_FS",
+    "table_type": "income_statement",
+    "rows": [
+     {
+      "row_id": "ROW_REVENUE",
+      "standard_account": "revenue",
+      "account_code": "01",
+      "label": "Doanh thu thuần về bán hàng và cung cấp dịch vụ",
+      "cells": [
+       {
+        "cell_id": "CELL_ROW_REVENUE_EXM_2025_Q1_CONSOLIDATED",
+        "row_id": "ROW_REVENUE",
+        "period": "2025-Q1",
+        "value": 100000
+       }
+      ]
+     },
+     {
+      "row_id": "ROW_RECEIVABLES",
+      "standard_account": "trade_receivables",
+      "account_code": "131",
+      "label": "Phải thu ngắn hạn của khách hàng",
+      "cells": [
+       {
+        "cell_id": "CELL_ROW_RECEIVABLES_EXM_2025_Q1_CONSOLIDATED",
+        "row_id": "ROW_RECEIVABLES",
+        "period": "2025-Q1",
+        "value": 45000
+       }
+      ]
+     },
+     {
+      "row_id": "ROW_PROFIT",
+      "standard_account": "profit_after_tax",
+      "account_code": "60",
+      "label": "Lợi nhuận sau thuế thu nhập doanh nghiệp",
+      "cells": [
+       {
+        "cell_id": "CELL_ROW_PROFIT_EXM_2025_Q1_CONSOLIDATED",
+        "row_id": "ROW_PROFIT",
+        "period": "2025-Q1",
+        "value": 9000
+       }
+      ]
+     },
+     {
+      "row_id": "ROW_OCF",
+      "standard_account": "operating_cash_flow",
+      "account_code": "20",
+      "label": "Lưu chuyển tiền thuần từ hoạt động kinh doanh",
+      "cells": [
+       {
+        "cell_id": "CELL_ROW_OCF_EXM_2025_Q1_CONSOLIDATED",
+        "row_id": "ROW_OCF",
+        "period": "2025-Q1",
+        "value": 7000
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "notes": [],
+  "variance_explanations": [],
+  "cell_index": {
+   "CELL_ROW_REVENUE_EXM_2025_Q1_CONSOLIDATED": {
+    "table_id": "TBL_EXM_2025_Q1_CONSOLIDATED_FS",
+    "row_id": "ROW_REVENUE"
+   },
+   "CELL_ROW_RECEIVABLES_EXM_2025_Q1_CONSOLIDATED": {
+    "table_id": "TBL_EXM_2025_Q1_CONSOLIDATED_FS",
+    "row_id": "ROW_RECEIVABLES"
+   },
+   "CELL_ROW_PROFIT_EXM_2025_Q1_CONSOLIDATED": {
+    "table_id": "TBL_EXM_2025_Q1_CONSOLIDATED_FS",
+    "row_id": "ROW_PROFIT"
+   },
+   "CELL_ROW_OCF_EXM_2025_Q1_CONSOLIDATED": {
+    "table_id": "TBL_EXM_2025_Q1_CONSOLIDATED_FS",
+    "row_id": "ROW_OCF"
+   }
+  }
+ }
+}

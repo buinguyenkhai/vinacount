@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vinacount"
+version = "1.0.0"
+description = "Evidence-bounded language-model judgment for accounting review"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+authors = [{ name = "Khai Nguyen Bui" }, { name = "Tuan-Dung Cao" }]
+dependencies = []
+
+[project.optional-dependencies]
+# Local inference with the released adapter, and `vinacount download`
+inference = [
+    "huggingface-hub==1.19.0",
+    "torch==2.10.0",
+    "transformers==5.5.0",
+    "peft==0.19.1",
+]
+# LoRA training (CUDA only)
+train = [
+    "vinacount[inference]",
+    "datasets==4.3.0",
+    "trl==0.24.0",
+    "unsloth==2026.6.3",
+    "unsloth_zoo",
+]
+
+[project.scripts]
+vinacount = "vinacount.cli:main"
+
+[project.urls]
+Dataset = "https://huggingface.co/datasets/buinguyenkhai/vinacount-synthetic-detector"
+Model = "https://huggingface.co/buinguyenkhai/vinacount-detector-qwen3.5-4b-lora"
+
+[tool.setuptools]
+packages = ["vinacount"]
